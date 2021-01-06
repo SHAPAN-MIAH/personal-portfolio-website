@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+}
+
+img{
+    width: 100%;
+}
+section{
+    height: 500px;
+}
+/* menu list */
+#menuList li a {
+    text-decoration: none;
+    list-style: none;
+    color: #f45f5f;
+}
+
+#menuList li {
+    float: left;
+    padding: 20px 15px;
+    list-style: none;
+}
+#menuList{
+    float: right;
+    margin-right: 5%;
+    padding-right: 2%;
+}
+/* shwcase */
+
+.head-content{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 50px;
+}
+.head-content img{
+    width: 450px;
+    margin-left: 10%;
+    padding-left: 5%;
+}
+.head-decription{
+    margin-top: 120px;
+}
+.head-decription h1{
+    font-size: 40px;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+}
+.head-decription h1 span{
+    color: #f45f5f;
+}
+.head-decription h2{
+    font-size: 30px;
+    color: #f45f5f;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.head-decription h3{
+    font-size: 25px;
+    color:rgb(85, 85, 85);
+    margin-bottom: 10px;
+    
+}
+.head-decription p{
+    color: rgb(49, 49, 49);
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.btn {
+   text-decoration: none;
+   border-radius: 5px;
+   padding: 10px 20px;
+   background: linear-gradient(#ff2379,#ff5f9f);
+   color: white;
+}
+.showcase_section{
+    margin-bottom: 50px;
+}
+/* about */
+.about-title{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    padding-top: 50px;
+    margin-bottom: -35px;
+}
+.about-title span{
+    color: #f59660;
+}
+
+.about img {
+    width: 30%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+    margin-top: 100px;
+}
+.about-dec{
+    width: 40%;
+    height: 350px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+
+.about-content h2{
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+}
+.about-content h4{
+    color: #f59660;
+}
+.about-content p{
+    color: rgb(49, 49, 49);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.hire-btn{
+   text-decoration: none;
+   border-radius: 5px;
+   padding: 10px 20px;
+   background: linear-gradient(#4f45ce, #585ee0);
+   color: white;
+   margin-right: 5px;
+}
+.cv-btn{
+   text-decoration: none;
+   border-radius: 5px;
+   padding: 10px 20px;
+   background: linear-gradient(#e97939,#f5c344);
+   color: white;
+}
+.about-section {
+    margin-bottom: 50px;
+}
+
+/* work */
+.work-area{
+    background: #f1f1f1;
+    padding-bottom: 50px;
+}
+.workImg-content{
+    width: 300px;
+    height: 310px;
+    float: left;
+    margin-left: 8%;
+    margin-top: 50px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px #cccccc;
+
+}
+
+.work-title h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    padding-top: 50px;
+}
+.work-title span {
+    color: #f59660;
+}
+.work-title p{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(85, 85, 85);
+}
+.workImg-content .work-img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.work-content h4{
+    font-size: 17px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: #f59660;
+}
+.work-content p {
+    font-size: 13px;
+    color: rgb(49, 49, 49);
+    text-align: left;
+    margin-left: 5px;
+}
+
+.project-mind{
+    background-image: url("image/banner.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 350px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+
+}
+.project-mind h2 {
+    margin-left: 30%;
+    width: 500px;
+    text-align: center;
+    color: #f45f5f;
+    
+}
+.project-mind input{
+    width: 300px;
+    height: 40px;
+    margin-left: 33%;
+    margin-right: 5px;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+.hire-me{
+    background-image: url("image/work_in.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 20%;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.hire-me h4{
+    font-size: 30px;
+    color: white;
+    top: 100px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.hire-me .btn{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+} 
+.social{
+    text-align: center;
+    margin-top: 50px;
+   color: rgb(49, 49, 49);
+   
+}
+.social-icon{
+    width: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
